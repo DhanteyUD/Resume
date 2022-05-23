@@ -603,6 +603,15 @@ a.dotted-link:hover {
   color: #778492;
 }
 
+.medium-blog {
+  margin-right: 10px;
+}
+
+.blog-list {
+  margin-left: 35px;
+  margin-top: -25px;
+}
+
 .blog .item .title a:hover {
   color: #5f6b77;
 }
