@@ -1,6 +1,6 @@
 # Resume
 
-> Personal Resume Webpage
+### Personal Resume Webpage.
 
 Contains some information about me
 
