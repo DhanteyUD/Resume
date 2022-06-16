@@ -4,6 +4,7 @@
 
 Contains some information about me 
 
-https://clinton-otse-cv.netlify.app/
+<a href="https://clinton-otse-cv.netlify.app/">Click to view in Browser</a>
+
 
 ![Clinton Otse Resume Web Page](./screen.png)
