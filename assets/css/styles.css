@@ -1,3 +1,5 @@
+/** @format */
+
 body {
   font-family: 'Outfit', sans-serif;
   color: #434343;
@@ -221,6 +223,10 @@ a.dotted-link:hover {
   padding: 30px;
 }
 
+.heading {
+  margin-left: 5%;
+}
+
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
@@ -294,6 +300,11 @@ a.dotted-link:hover {
   text-align: center;
 }
 
+.ribbon {
+  margin-right: 4.8%;
+  margin-top: -0.2%;
+}
+
 .latest .has-ribbon {
   position: relative;
   display: inline-block;
@@ -325,7 +336,7 @@ a.dotted-link:hover {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479fc8;
+  background-color: red;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
