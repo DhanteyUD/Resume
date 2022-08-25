@@ -223,10 +223,6 @@ a.dotted-link:hover {
   padding: 30px;
 }
 
-.heading {
-  margin-left: 5%;
-}
-
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
@@ -395,7 +391,16 @@ a.dotted-link:hover {
 
 /* Work Section */
 .experience .item {
+  position: relative;
   margin-bottom: 30px;
+}
+
+.exp-status {
+  font-weight: 600;
+  color: #3aaa64;
+  position: absolute;
+  top: -2px;
+  right: 38%;
 }
 
 .experience .item .title {
