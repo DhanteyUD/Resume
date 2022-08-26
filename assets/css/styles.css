@@ -400,7 +400,7 @@ a.dotted-link:hover {
   color: #3aaa64;
   position: absolute;
   top: -2px;
-  right: 38%;
+  right: 0;
 }
 
 .experience .item .title {
