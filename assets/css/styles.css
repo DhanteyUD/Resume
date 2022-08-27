@@ -490,6 +490,10 @@ a.dotted-link:hover {
   margin-bottom: 10;
 }
 
+.level-title-header {
+  padding-bottom: 20px;
+}
+
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
   font-size: 14px;
