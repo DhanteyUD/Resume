@@ -395,14 +395,6 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 
-.exp-status {
-  font-weight: 600;
-  color: #3aaa64;
-  position: absolute;
-  top: -2px;
-  right: 0;
-}
-
 .experience .item .title {
   font-size: 16px;
   margin-top: 0;
