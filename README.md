@@ -8,3 +8,5 @@ Contains some information about me
 
 
 ![Clinton Otse Resume Web Page](./screen.png)
+
+> For more info, please contact me... 
