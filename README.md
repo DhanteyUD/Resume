@@ -9,4 +9,4 @@ Contains some information about me
 
 ![Clinton Otse Resume Web Page](./screen.png)
 
-> For more info, please contact me... 
+> For more info, email me: otseclinton60@gmail.com
