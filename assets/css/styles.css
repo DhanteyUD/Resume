@@ -723,6 +723,7 @@ a.dotted-link:hover {
 .dark-mode-switch .form-switch .form-check-input {
   border-radius: 1em;
   border-color: #dae3e7;
+  cursor: pointer;
 }
 
 .dark-mode-switch .form-check-input:checked {
