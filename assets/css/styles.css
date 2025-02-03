@@ -593,6 +593,11 @@ a.dotted-link:hover {
   margin-top: 0;
 }
 
+.education-header {
+  display: flex;
+  gap: 10px;
+}
+
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
   font-size: 13px;
@@ -604,6 +609,14 @@ a.dotted-link:hover {
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 500;
+}
+
+.university {
+  margin-left: 12px;
+}
+
+.fa-graduation-cap {
+  margin-right: 5px;
 }
 
 /* Language Section */
@@ -654,6 +667,10 @@ a.dotted-link:hover {
   color: #5f6b77;
 }
 
+.rss-feed-content {
+  margin-top: 30px;
+}
+
 .blog .item p {
   margin-bottom: 5px;
 }
@@ -677,6 +694,10 @@ a.dotted-link:hover {
 
 .list ul li a:hover {
   color: #49515a;
+}
+
+.music-title {
+  color: #2d844e !important;
 }
 
 /* Credits */
