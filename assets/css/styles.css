@@ -959,13 +959,34 @@ body[data-theme="dark"] .text-muted {
 
   .dark-mode-switch {
     margin-top: 1rem;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .form-check {
-    margin: 0 !important; 
+    margin: 0 !important;
+  }
+
+  .col-md-auto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a.btn-cta-primary,
+  .btn-cta-primary {
+    background: #54ba4e;
+    border: 1px solid #54ba4e;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px !important;
   }
 }
 
