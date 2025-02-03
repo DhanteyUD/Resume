@@ -32,6 +32,11 @@ table.ContributionCalendar-grid {
 
 table.ContributionCalendar-grid td {
   padding: 4pt;
+  border: 2px solid #ffffff;
+}
+body[data-theme="dark"] table.ContributionCalendar-grid td {
+  padding: 4pt;
+  border: 2px solid #17191c;
 }
 
 table.ContributionCalendar-grid td span.sr-only {
@@ -47,8 +52,8 @@ tool-tip {
   display: none;
 }
 
-.calendar .width-full > .float-left {
-  display: none;
+.calendar .width-full > .float-left > a {
+  font-size: 14px;
 }
 
 .calendar {
@@ -60,6 +65,14 @@ tool-tip {
   margin: 0 auto;
 }
 
+body[data-theme="dark"] .calendar {
+  font-family: Helvetica, arial;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 3px;
+  min-height: 243px;
+  text-align: center;
+}
+
 .calendar-graph text.wday,
 .calendar-graph text.month {
   font-size: 10px;
@@ -67,23 +80,36 @@ tool-tip {
 }
 
 div.px-md-5 {
+  width: auto;
   height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 div.float-right {
-  text-align: right;
-  padding: 0 14px 10px 0;
-  display: inline-block;
   float: right;
+  display: flex;
+  text-align: right;
+  align-items: center;
 }
 
 div.float-right div {
   display: inline-block;
   list-style: none;
-  margin: 0 5px;
+  margin: 0 2px;
   position: relative;
   bottom: -1px;
   padding: 0;
+}
+
+div.float-right span:first-child {
+  margin-right: 5px;
+  font-size: 12px;
+}
+div.float-right span:last-child {
+  margin-left: 5px;
+  font-size: 12px;
 }
 
 div.float-right span.sr-only {
