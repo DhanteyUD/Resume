@@ -1,7 +1,7 @@
 /** @format */
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #434343;
   background: #dae3e7;
   font-size: 18px;
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #778492;
 }
@@ -44,7 +44,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: "Montserrat", arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -74,6 +74,16 @@ a.btn-cta-primary,
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.btn-cta-primary > p {
+  margin: 0;
+}
+
+.fa-comment {
+  margin: 2px 0 0 0;
 }
 
 a.btn-cta-primary:hover,
@@ -151,7 +161,7 @@ a.dotted-link:hover {
 
 .header .profile-content .desc {
   color: #778492;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
@@ -321,7 +331,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .ribbon .text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: -8px;
   top: 18px;
@@ -341,7 +351,7 @@ a.dotted-link:hover {
 
 .latest .has-ribbon .ribbon .text:before,
 .latest .has-ribbon .ribbon .text:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   border-top: 5px solid #276582;
@@ -490,7 +500,7 @@ a.dotted-link:hover {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -568,7 +578,7 @@ a.dotted-link:hover {
 }
 
 .education .item .university {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-size: 13px;
   color: #999;
   font-weight: 600;
@@ -708,11 +718,14 @@ a.dotted-link:hover {
 
 .dark-mode-switch {
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .dark-mode-switch .form-switch {
   display: -webkit-flex;
   display: flex;
+  padding-bottom: 3px;
 }
 
 .dark-mode-switch label {
@@ -736,154 +749,154 @@ a.dotted-link:hover {
   border-color: #dae3e7;
 }
 
-body[data-theme='dark'] {
+body[data-theme="dark"] {
   background: #17191c;
   /* Github Activity Dark Mode */
   /* Github activity */
 }
 
-body[data-theme='dark'] a:hover {
+body[data-theme="dark"] a:hover {
   color: #53c47d;
 }
 
-body[data-theme='dark'] a.btn:hover {
+body[data-theme="dark"] a.btn:hover {
   color: #fff;
 }
 
-body[data-theme='dark'] .dark-mode-switch .form-check-input:focus {
+body[data-theme="dark"] .dark-mode-switch .form-check-input:focus {
   border-color: #54ba4e;
 }
 
-body[data-theme='dark'] .header {
+body[data-theme="dark"] .header {
   background: #1e2124;
   color: rgba(255, 255, 255, 0.9);
   border-top-color: #1e2124;
 }
 
-body[data-theme='dark'] .header .profile-content .name {
+body[data-theme="dark"] .header .profile-content .name {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .header .profile-content .desc {
+body[data-theme="dark"] .header .profile-content .desc {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme='dark'] .header .profile-content .social a {
+body[data-theme="dark"] .header .profile-content .social a {
   background: #2e3238;
   color: rgba(230, 230, 230, 0.7);
 }
 
-body[data-theme='dark'] .header .profile-content .social a:hover {
+body[data-theme="dark"] .header .profile-content .social a:hover {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .section .section-inner {
+body[data-theme="dark"] .section .section-inner {
   background: #1e2124;
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme='dark'] .section .heading {
+body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .experience .item .title {
+body[data-theme="dark"] .experience .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .testimonials .item .quote {
+body[data-theme="dark"] .testimonials .item .quote {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .latest .item .title a,
-body[data-theme='dark'] .projects .item .title a,
-body[data-theme='dark'] .blog .item .title a {
+body[data-theme="dark"] .latest .item .title a,
+body[data-theme="dark"] .projects .item .title a,
+body[data-theme="dark"] .blog .item .title a {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .latest .item .title a:hover,
-body[data-theme='dark'] .projects .item .title a:hover,
-body[data-theme='dark'] .blog .item .title a:hover {
+body[data-theme="dark"] .latest .item .title a:hover,
+body[data-theme="dark"] .projects .item .title a:hover,
+body[data-theme="dark"] .blog .item .title a:hover {
   color: #fff;
 }
 
-body[data-theme='dark'] .testimonials .item .source .name {
+body[data-theme="dark"] .testimonials .item .source .name {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .education .item .title {
+body[data-theme="dark"] .education .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .languages .item .title {
+body[data-theme="dark"] .languages .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .list ul li a,
-body[data-theme='dark'] .credits ul li a {
+body[data-theme="dark"] .list ul li a,
+body[data-theme="dark"] .credits ul li a {
   color: inherit;
 }
 
-body[data-theme='dark'] .experience .item .title .place a {
+body[data-theme="dark"] .experience .item .title .place a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme='dark'] .experience .item .title .place a:hover {
+body[data-theme="dark"] .experience .item .title .place a:hover {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .aside .subheading {
+body[data-theme="dark"] .aside .subheading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .gha-header,
-body[data-theme='dark'] .gha-footer,
-body[data-theme='dark'] .gha-feed {
+body[data-theme="dark"] .gha-header,
+body[data-theme="dark"] .gha-footer,
+body[data-theme="dark"] .gha-feed {
   background: #17191c;
   border-color: rgba(255, 255, 255, 0.1);
   color: #3aaa64;
 }
 
-body[data-theme='dark'] .gha-feed a {
+body[data-theme="dark"] .gha-feed a {
   color: #3aaa64;
 }
 
-body[data-theme='dark'] .gha-header > .gha-github-icon,
-body[data-theme='dark'] .gha-header > .gha-user-info > a,
-body[data-theme='dark'] .gha-header > .gha-user-info > p > a {
+body[data-theme="dark"] .gha-header > .gha-github-icon,
+body[data-theme="dark"] .gha-header > .gha-user-info > a,
+body[data-theme="dark"] .gha-header > .gha-user-info > p > a {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .gha-activity {
+body[data-theme="dark"] .gha-activity {
   border-color: #333;
 }
 
-body[data-theme='dark'] .gha-gravatar img {
+body[data-theme="dark"] .gha-gravatar img {
   border: 3px solid #333;
   box-shadow: 0 0 0 #ccc;
 }
 
-body[data-theme='dark'] .gha-message-merge {
+body[data-theme="dark"] .gha-message-merge {
   background: #2e3238;
 }
 
-body[data-theme='dark'] .gha-feed small {
+body[data-theme="dark"] .gha-feed small {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme='dark'] .github-graph {
+body[data-theme="dark"] .github-graph {
   background: #17191c;
 }
 
-body[data-theme='dark'] .contrib-number {
+body[data-theme="dark"] .contrib-number {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme='dark'] .border,
-body[data-theme='dark'] .contrib-column {
+body[data-theme="dark"] .border,
+body[data-theme="dark"] .contrib-column {
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-body[data-theme='dark'] .text-muted {
+body[data-theme="dark"] .text-muted {
   color: rgba(255, 255, 255, 0.6);
 }
 
