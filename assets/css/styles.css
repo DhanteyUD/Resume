@@ -82,7 +82,8 @@ a.btn-cta-primary,
   margin: 0;
 }
 
-.fa-comment {
+.fa-comment,
+.fa-check-circle {
   margin: 2px 0 0 0;
 }
 
@@ -100,6 +101,21 @@ a.btn-cta-secondary,
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.desc-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.project-btn {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.btn-cta-secondary > p {
+  margin: 0;
 }
 
 a.btn-cta-secondary:hover,
