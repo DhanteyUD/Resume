@@ -10,7 +10,7 @@ const rss = new RSS(
   document.querySelector("#rss-feeds"),
   "https://medium.com/feed/@Clinton-Otse",
   {
-    limit: 3,
+    limit: 10,
     ssl: true,
     layoutTemplate: "<div class='items'>{entries}</div>",
     entryTemplate:
