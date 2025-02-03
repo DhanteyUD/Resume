@@ -1,4 +1,7 @@
 {
   "liveServer.settings.port": 5502,
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": [
+    "ghfeed"
+  ]
 }
