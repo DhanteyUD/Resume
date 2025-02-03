@@ -956,6 +956,17 @@ body[data-theme="dark"] .text-muted {
   .project-image {
     margin-bottom: 15px;
   }
+
+  .dark-mode-switch {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-check {
+    margin: 0 !important; 
+  }
 }
 
 @media (min-width: 1400px) {
