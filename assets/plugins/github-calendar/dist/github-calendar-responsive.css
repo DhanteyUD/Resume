@@ -32,10 +32,12 @@ table.ContributionCalendar-grid {
 
 table.ContributionCalendar-grid td {
   padding: 4pt;
+  border-radius: 5px;
   border: 2px solid #ffffff;
 }
 body[data-theme="dark"] table.ContributionCalendar-grid td {
   padding: 4pt;
+  border-radius: 5px;
   border: 2px solid #17191c;
 }
 
