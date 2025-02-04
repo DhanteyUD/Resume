@@ -13,7 +13,7 @@
   background: #fff;
   font-weight: bold;
   font-size: 14px;
-  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-family: outfit, arial, freesans, clean, sans-serif;
   line-height: 1.3;
   overflow-y: auto;
   border: 1px solid #ddd;
@@ -128,6 +128,7 @@ span.gha-time {
   width: 35px;
   height: 35px;
   color: #495961;
+  margin-right: 5px;
 }
 
 .gha-github-icon .octicon {
@@ -190,7 +191,7 @@ span.gha-time {
   width: 50px;
   color: #bbb;
   text-align: center;
-  font: normal normal 30px octicons;
+  font: normal normal 20px octicons;
 }
 
 .gha-activity-icon .gha-small {
