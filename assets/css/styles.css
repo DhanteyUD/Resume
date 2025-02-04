@@ -421,6 +421,16 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 
+.experience-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.experience-title-header {
+  width: 100%;
+}
+
 .experience .item .title {
   font-size: 16px;
   margin-top: 0;
@@ -987,6 +997,19 @@ body[data-theme="dark"] .text-muted {
     justify-content: center;
     align-items: center;
     width: 200px !important;
+  }
+
+  .section .section-inner {
+    background: #fff;
+    padding: 30px 20px;
+  }
+
+  .education .item .university {
+    padding-left: 0;
+  }
+
+  .university {
+    margin-left: 0;
   }
 }
 
