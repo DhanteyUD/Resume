@@ -256,4 +256,8 @@ text.ContributionCalendar-label {
     display: block;
     width: 100%;
   }
+
+  .calendar .width-full > .float-left > a {
+    display: none;
+  }
 }
