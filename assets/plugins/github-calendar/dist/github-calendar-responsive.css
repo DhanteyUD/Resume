@@ -60,19 +60,21 @@ tool-tip {
 
 .calendar {
   font-family: Helvetica, arial;
-  border: 1px solid #dddddd;
   border-radius: 3px;
-  min-height: 243px;
   text-align: center;
   margin: 0 auto;
+
+  /* border: 1px solid #dddddd; */ /* Replace after fixing contribution */
+  /* min-height: 243px; */ /* Replace after fixing contribution */
 }
 
 body[data-theme="dark"] .calendar {
   font-family: Helvetica, arial;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
   border-radius: 3px;
-  min-height: 243px;
   text-align: center;
+
+  /* border: 1px solid rgba(255, 255, 255, 0.1) !important; */ /* Replace after fixing contribution */
+  /* min-height: 243px; */ /* Replace after fixing contribution */
 }
 
 .calendar-graph text.wday,
@@ -148,11 +150,13 @@ div.float-right span.sr-only {
 
 .table-column {
   box-sizing: border-box;
-  display: table-cell;
+  /* display: table-cell;  */ /* Replace after fixing contribution */
   width: 1%;
   padding-right: 10px;
   padding-left: 10px;
   vertical-align: top;
+
+  display: none; /* Remove after fixing contribution */
 }
 
 .contrib-number {
