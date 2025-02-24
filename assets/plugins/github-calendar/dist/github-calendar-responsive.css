@@ -257,8 +257,10 @@ text.ContributionCalendar-label {
 
 @media screen and (max-width: 768px) {
   .table-column {
-    display: block;
+    /* display: table-cell;  */ /* Replace after fixing contribution */
     width: 100%;
+
+    display: none; /* Remove after fixing contribution */
   }
 
   .calendar .width-full > .float-left > a {
