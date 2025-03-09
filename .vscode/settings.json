@@ -2,8 +2,10 @@
   "liveServer.settings.port": 5502,
   "git.ignoreLimitWarning": true,
   "cSpell.words": [
+    "codepen",
     "formatoid",
     "ghfeed",
-    "Idoma"
+    "Idoma",
+    "stackoverflow"
   ]
 }
