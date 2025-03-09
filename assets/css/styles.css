@@ -203,22 +203,27 @@ a.dotted-link:hover {
 
 #twitter:hover {
   background: #1da1f2;
+  transform: scale(1.1);
 }
 
 #linkedin:hover {
   background: #0e76a8;
+  transform: scale(1.1);
 }
 
 #github:hover {
   background: #171515;
+  transform: scale(1.1);
 }
 
 #stackoverflow:hover {
   background: #ef8236;
+  transform: scale(1.1);
 }
 
 #codepen:hover {
   background: #732844;
+  transform: scale(1.1);
 }
 
 .referee-name {
